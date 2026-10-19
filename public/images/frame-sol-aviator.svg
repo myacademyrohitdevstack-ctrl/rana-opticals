@@ -1,0 +1,69 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgLight" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F5F1E9"/>
+      <stop offset="100%" stop-color="#E8E1D3"/>
+    </radialGradient>
+
+    <!-- Polarized Gradient Sunglasses Lens -->
+    <linearGradient id="aviatorLens" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E231D"/>
+      <stop offset="45%" stop-color="#2D352C"/>
+      <stop offset="85%" stop-color="#4F5C4E"/>
+      <stop offset="100%" stop-color="#728271"/>
+    </linearGradient>
+
+    <!-- Gunmetal Frame -->
+    <linearGradient id="gunmetal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#555852"/>
+      <stop offset="50%" stop-color="#848980"/>
+      <stop offset="100%" stop-color="#363934"/>
+    </linearGradient>
+
+    <radialGradient id="dropShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#242722" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#242722" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#242722" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bgLight)"/>
+  <rect x="24" y="24" width="752" height="952" stroke="#DCD5C9" stroke-width="1.5"/>
+
+  <ellipse cx="400" cy="590" rx="330" ry="45" fill="url(#dropShadow)"/>
+
+  <!-- Eyewear Composition: The Sol Aviator -->
+  <g transform="translate(400, 460)">
+    <!-- Temple arms -->
+    <path d="M -260 -20 Q -310 -30 -350 -60" stroke="url(#gunmetal)" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M 260 -20 Q 310 -30 350 -60" stroke="url(#gunmetal)" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- Left Aviator Teardrop Lens -->
+    <path d="M -250 -40 C -120 -40 -70 -20 -60 25 C -50 90 -130 135 -190 125 C -240 115 -270 50 -250 -40 Z" fill="url(#aviatorLens)" stroke="#363934" stroke-width="1"/>
+    <path d="M -230 -25 C -150 -25 -100 -10 -90 15" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+
+    <!-- Right Aviator Teardrop Lens -->
+    <path d="M 250 -40 C 120 -40 70 -20 60 25 C 50 90 130 135 190 125 C 240 115 270 50 250 -40 Z" fill="url(#aviatorLens)" stroke="#363934" stroke-width="1"/>
+    <path d="M 90 15 C 100 -10 150 -25 230 -25" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+
+    <!-- Left & Right Wire Rims -->
+    <path d="M -250 -40 C -120 -40 -70 -20 -60 25 C -50 90 -130 135 -190 125 C -240 115 -270 50 -250 -40 Z" stroke="url(#gunmetal)" stroke-width="7" fill="none"/>
+    <path d="M 250 -40 C 120 -40 70 -20 60 25 C 50 90 130 135 190 125 C 240 115 270 50 250 -40 Z" stroke="url(#gunmetal)" stroke-width="7" fill="none"/>
+
+    <!-- Iconic Aviator Double Brow Bar -->
+    <path d="M -160 -50 L 160 -50" stroke="url(#gunmetal)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M -60 -20 Q 0 -35 60 -20" stroke="url(#gunmetal)" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- Clear Silicone Nose Pads -->
+    <ellipse cx="-26" cy="20" rx="4" ry="11" fill="#FFFFFF" opacity="0.8" stroke="url(#gunmetal)" stroke-width="1"/>
+    <ellipse cx="26" cy="20" rx="4" ry="11" fill="#FFFFFF" opacity="0.8" stroke="url(#gunmetal)" stroke-width="1"/>
+  </g>
+
+  <!-- Editorial Card Label -->
+  <g transform="translate(400, 750)">
+    <text text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="32" fill="#242722" letter-spacing="1">The Sol Aviator</text>
+    <text y="36" text-anchor="middle" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#687466" letter-spacing="3" text-transform="uppercase">Brushed Gunmetal · Polarized UV400</text>
+    <text y="68" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" fill="#A77B50" letter-spacing="1.5">RANA OPTICAL DISPENSARY</text>
+  </g>
+</svg>

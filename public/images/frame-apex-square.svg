@@ -1,0 +1,67 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgLight" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F5F1E9"/>
+      <stop offset="100%" stop-color="#EBE3D7"/>
+    </radialGradient>
+
+    <!-- Translucent Crystal Acetate -->
+    <linearGradient id="crystalAcetate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E2EBE5" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#CCD9D0" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="coreWire" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A77B50"/>
+      <stop offset="50%" stop-color="#D9BA9B"/>
+      <stop offset="100%" stop-color="#7A5633"/>
+    </linearGradient>
+
+    <radialGradient id="dropShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#242722" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#242722" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#242722" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bgLight)"/>
+  <rect x="24" y="24" width="752" height="952" stroke="#DCD5C9" stroke-width="1.5"/>
+
+  <ellipse cx="400" cy="585" rx="320" ry="44" fill="url(#dropShadow)"/>
+
+  <!-- Eyewear: Apex Square -->
+  <g transform="translate(400, 465)">
+    <!-- Core wire inside clear temples -->
+    <path d="M -250 -20 Q -300 -30 -340 -50" stroke="url(#coreWire)" stroke-width="4" stroke-dasharray="8 4" stroke-linecap="round" fill="none"/>
+    <path d="M -250 -20 Q -300 -30 -340 -50" stroke="url(#crystalAcetate)" stroke-width="16" stroke-linecap="round" fill="none"/>
+
+    <path d="M 250 -20 Q 300 -30 340 -50" stroke="url(#coreWire)" stroke-width="4" stroke-dasharray="8 4" stroke-linecap="round" fill="none"/>
+    <path d="M 250 -20 Q 300 -30 340 -50" stroke="url(#crystalAcetate)" stroke-width="16" stroke-linecap="round" fill="none"/>
+
+    <!-- Left Bold Square -->
+    <rect x="-240" y="-70" width="200" height="135" rx="16" fill="#F0F6F3" opacity="0.85" stroke="#DCD5C9" stroke-width="1"/>
+    <rect x="-245" y="-75" width="210" height="145" rx="20" stroke="url(#crystalAcetate)" stroke-width="18" fill="none"/>
+    <rect x="-245" y="-75" width="210" height="145" rx="20" stroke="#7A8F82" stroke-width="1.5" stroke-opacity="0.4" fill="none"/>
+
+    <!-- Right Bold Square -->
+    <rect x="40" y="-70" width="200" height="135" rx="16" fill="#F0F6F3" opacity="0.85" stroke="#DCD5C9" stroke-width="1"/>
+    <rect x="35" y="-75" width="210" height="145" rx="20" stroke="url(#crystalAcetate)" stroke-width="18" fill="none"/>
+    <rect x="35" y="-75" width="210" height="145" rx="20" stroke="#7A8F82" stroke-width="1.5" stroke-opacity="0.4" fill="none"/>
+
+    <!-- Keyhole Bridge -->
+    <path d="M -35 -25 C -15 -45 15 -45 35 -25 C 25 -10 15 10 20 20 C 10 10 -10 10 -20 20 C -15 10 -25 -10 -35 -25 Z" fill="url(#crystalAcetate)"/>
+
+    <!-- Highlights -->
+    <path d="M -220 -60 L -60 -60" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 60 -60 L 220 -60" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <!-- Label -->
+  <g transform="translate(400, 750)">
+    <text text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="32" fill="#242722" letter-spacing="1">The Apex Square</text>
+    <text y="36" text-anchor="middle" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#687466" letter-spacing="3" text-transform="uppercase">Crystal Clear Acetate · Custom Core Wire</text>
+    <text y="68" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" fill="#A77B50" letter-spacing="1.5">RANA OPTICAL DISPENSARY</text>
+  </g>
+</svg>

@@ -1,0 +1,71 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDFBF7"/>
+      <stop offset="50%" stop-color="#F2EDE3"/>
+      <stop offset="100%" stop-color="#E2DBD0"/>
+    </linearGradient>
+
+    <!-- Warm shelf backlight -->
+    <linearGradient id="shelfBacklight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#F0E8DC" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <linearGradient id="shelfWood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#735338"/>
+      <stop offset="50%" stop-color="#99704C"/>
+      <stop offset="100%" stop-color="#59402B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#wall)"/>
+  <rect x="24" y="24" width="752" height="952" stroke="#DCD5C9" stroke-width="1.5"/>
+
+  <!-- Boutique Wall Backlit Panel -->
+  <rect x="80" y="140" width="640" height="560" rx="4" fill="url(#shelfBacklight)" stroke="#DCD5C9" stroke-width="1"/>
+
+  <!-- Shelf 1 -->
+  <g transform="translate(100, 260)">
+    <rect x="0" y="0" width="600" height="14" rx="2" fill="url(#shelfWood)"/>
+    <!-- Frame 1 -->
+    <rect x="40" y="-35" width="85" height="30" rx="6" stroke="#242722" stroke-width="4" fill="#FFFFFF" fill-opacity="0.9"/>
+    <!-- Frame 2 -->
+    <circle cx="220" cy="-20" r="16" stroke="#A77B50" stroke-width="3" fill="#FFFFFF" fill-opacity="0.9"/>
+    <circle cx="260" cy="-20" r="16" stroke="#A77B50" stroke-width="3" fill="#FFFFFF" fill-opacity="0.9"/>
+    <line x1="236" y1="-20" x2="244" y2="-20" stroke="#A77B50" stroke-width="3"/>
+    <!-- Frame 3 -->
+    <rect x="360" y="-35" width="90" height="30" rx="4" stroke="#687466" stroke-width="4" fill="#FFFFFF" fill-opacity="0.9"/>
+    <!-- Frame 4 -->
+    <ellipse cx="510" cy="-20" rx="20" ry="15" stroke="#242722" stroke-width="3.5" fill="#242722" fill-opacity="0.8"/>
+  </g>
+
+  <!-- Shelf 2 -->
+  <g transform="translate(100, 420)">
+    <rect x="0" y="0" width="600" height="14" rx="2" fill="url(#shelfWood)"/>
+    <ellipse cx="80" cy="-20" rx="22" ry="16" stroke="#A77B50" stroke-width="3.5" fill="#242722" fill-opacity="0.85"/>
+    <ellipse cx="130" cy="-20" rx="22" ry="16" stroke="#A77B50" stroke-width="3.5" fill="#242722" fill-opacity="0.85"/>
+    
+    <rect x="230" y="-36" width="90" height="32" rx="14" stroke="#242722" stroke-width="4" fill="#FFFFFF" fill-opacity="0.9"/>
+    <rect x="390" y="-36" width="90" height="32" rx="6" stroke="#A77B50" stroke-width="4" fill="#FFFFFF" fill-opacity="0.9"/>
+    <circle cx="535" cy="-20" r="16" stroke="#687466" stroke-width="3.5" fill="#FFFFFF" fill-opacity="0.9"/>
+  </g>
+
+  <!-- Shelf 3 -->
+  <g transform="translate(100, 580)">
+    <rect x="0" y="0" width="600" height="14" rx="2" fill="url(#shelfWood)"/>
+    <!-- Try-on mirror station in center -->
+    <rect x="240" y="-120" width="120" height="115" rx="60" fill="#EAF2EF" stroke="#A77B50" stroke-width="4"/>
+    <line x1="300" y1="-5" x2="300" y2="0" stroke="#A77B50" stroke-width="6"/>
+
+    <rect x="60" y="-35" width="85" height="30" rx="6" stroke="#242722" stroke-width="4" fill="#FFFFFF" fill-opacity="0.9"/>
+    <rect x="440" y="-35" width="90" height="30" rx="6" stroke="#242722" stroke-width="4" fill="#FFFFFF" fill-opacity="0.9"/>
+  </g>
+
+  <!-- Dispensary Counter Desk -->
+  <rect x="120" y="730" width="560" height="80" rx="4" fill="#FFFFFF" stroke="#DCD5C9" stroke-width="2"/>
+  <rect x="120" y="730" width="560" height="12" fill="#A77B50"/>
+
+  <text x="400" y="870" text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="30" fill="#242722">Rana Optical Dispensary &amp; Fitting Counter</text>
+  <text x="400" y="905" text-anchor="middle" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#687466" letter-spacing="2">NAYAGAON, CHANDIGARH · WALK-INS WELCOME</text>
+</svg>

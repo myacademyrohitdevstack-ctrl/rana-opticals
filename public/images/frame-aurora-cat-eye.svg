@@ -1,0 +1,69 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgLight" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F7F1EB"/>
+      <stop offset="100%" stop-color="#EBE0D5"/>
+    </radialGradient>
+
+    <!-- Rose Gold & Bronze Gradient -->
+    <linearGradient id="roseBronze" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C28D75"/>
+      <stop offset="35%" stop-color="#F2C5B3"/>
+      <stop offset="70%" stop-color="#A77B50"/>
+      <stop offset="100%" stop-color="#6E4B33"/>
+    </linearGradient>
+
+    <linearGradient id="warmAmberLens" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4A3428"/>
+      <stop offset="50%" stop-color="#6B4B36"/>
+      <stop offset="100%" stop-color="#9C775D"/>
+    </linearGradient>
+
+    <radialGradient id="dropShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#242722" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#242722" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#242722" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bgLight)"/>
+  <rect x="24" y="24" width="752" height="952" stroke="#DCD5C9" stroke-width="1.5"/>
+
+  <ellipse cx="400" cy="585" rx="310" ry="42" fill="url(#dropShadow)"/>
+
+  <!-- Eyewear: Aurora Cat-Eye -->
+  <g transform="translate(400, 465)">
+    <!-- Temple arms -->
+    <path d="M -260 -25 Q -310 -35 -350 -60" stroke="url(#roseBronze)" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M 260 -25 Q 310 -35 350 -60" stroke="url(#roseBronze)" stroke-width="10" stroke-linecap="round" fill="none"/>
+
+    <!-- Left Wing Cat-Eye Lens -->
+    <path d="M -270 -45 C -170 -45 -70 -25 -55 20 C -45 80 -120 115 -180 110 C -240 100 -280 40 -270 -45 Z" fill="url(#warmAmberLens)"/>
+    <path d="M -255 -30 C -180 -30 -100 -15 -80 10" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- Right Wing Cat-Eye Lens -->
+    <path d="M 270 -45 C 170 -45 70 -25 55 20 C 45 80 120 115 180 110 C 240 100 280 40 270 -45 Z" fill="url(#warmAmberLens)"/>
+    <path d="M 80 10 C 100 -15 180 -30 255 -30" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- Left Thick Acetate Rim -->
+    <path d="M -275 -50 C -170 -50 -70 -30 -50 20 C -40 85 -115 120 -180 115 C -245 105 -285 45 -275 -50 Z" stroke="url(#roseBronze)" stroke-width="14" fill="none"/>
+    
+    <!-- Right Thick Acetate Rim -->
+    <path d="M 275 -50 C 170 -50 70 -30 50 20 C 40 85 115 120 180 115 C 245 105 285 45 275 -50 Z" stroke="url(#roseBronze)" stroke-width="14" fill="none"/>
+
+    <!-- Bridge -->
+    <path d="M -50 -15 Q 0 -35 50 -15" stroke="url(#roseBronze)" stroke-width="12" stroke-linecap="round" fill="none"/>
+
+    <!-- Wing Tip Diamond Accents -->
+    <polygon points="-272,-40 -266,-44 -260,-40 -266,-36" fill="#FFFFFF"/>
+    <polygon points="272,-40 266,-44 260,-40 266,-36" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Label -->
+  <g transform="translate(400, 750)">
+    <text text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="32" fill="#242722" letter-spacing="1">The Aurora Cat-Eye</text>
+    <text y="36" text-anchor="middle" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#687466" letter-spacing="3" text-transform="uppercase">Rose Gold Acetate · Gradient Warm Amber</text>
+    <text y="68" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" fill="#A77B50" letter-spacing="1.5">RANA OPTICAL DISPENSARY</text>
+  </g>
+</svg>

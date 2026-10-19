@@ -1,0 +1,91 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Studio Lighting Background -->
+    <radialGradient id="bgLight" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F5F1E9"/>
+      <stop offset="100%" stop-color="#EAE3D6"/>
+    </radialGradient>
+    
+    <!-- Acetate Depth Gradients -->
+    <linearGradient id="blackAcetate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3A3D36"/>
+      <stop offset="25%" stop-color="#1B1D19"/>
+      <stop offset="70%" stop-color="#242722"/>
+      <stop offset="100%" stop-color="#121411"/>
+    </linearGradient>
+
+    <linearGradient id="lensAR" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F4F8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#E5F0E8" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <!-- Specular Highlight -->
+    <linearGradient id="specular" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Floor Drop Shadow -->
+    <radialGradient id="dropShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#242722" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#242722" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#242722" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="1000" fill="url(#bgLight)"/>
+  <rect x="24" y="24" width="752" height="952" stroke="#DCD5C9" stroke-width="1.5"/>
+
+  <!-- Pedestal Platform Shadow -->
+  <ellipse cx="400" cy="580" rx="320" ry="45" fill="url(#dropShadow)"/>
+
+  <!-- Eyewear Composition: The Everyday Classic -->
+  <g transform="translate(400, 470)">
+    <!-- Behind-the-lens Temple Arms -->
+    <path d="M -240 -10 Q -290 -20 -330 -50" stroke="#1B1D19" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M 240 -10 Q 290 -20 330 -50" stroke="#1B1D19" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+    <!-- Left Lens (Clear Optical with AR Reflex) -->
+    <rect x="-240" y="-75" width="205" height="135" rx="24" fill="url(#lensAR)" stroke="#DCD5C9" stroke-width="1"/>
+    <!-- AR Green/Violet Sheen -->
+    <path d="M -210 -40 L -70 40" stroke="#687466" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+    <path d="M -195 -45 L -55 35" stroke="#A77B50" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- Right Lens -->
+    <rect x="35" y="-75" width="205" height="135" rx="24" fill="url(#lensAR)" stroke="#DCD5C9" stroke-width="1"/>
+    <!-- AR Sheen -->
+    <path d="M 65 -40 L 205 40" stroke="#687466" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+    <path d="M 80 -45 L 220 35" stroke="#A77B50" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- Left Acetate Rim -->
+    <rect x="-245" y="-80" width="215" height="145" rx="28" stroke="url(#blackAcetate)" stroke-width="16" fill="none"/>
+    <rect x="-244" y="-79" width="213" height="70" rx="26" fill="url(#specular)" opacity="0.7"/>
+
+    <!-- Right Acetate Rim -->
+    <rect x="30" y="-80" width="215" height="145" rx="28" stroke="url(#blackAcetate)" stroke-width="16" fill="none"/>
+    <rect x="31" y="-79" width="213" height="70" rx="26" fill="url(#specular)" opacity="0.7"/>
+
+    <!-- Saddle Bridge -->
+    <path d="M -30 -30 Q 0 -50 30 -30 Q 15 -15 0 -15 Q -15 -15 -30 -30" fill="url(#blackAcetate)"/>
+
+    <!-- Dual Hinge Pins (Silver Rivets) -->
+    <circle cx="-235" cy="-60" r="2.5" fill="#FFFFFF"/>
+    <circle cx="-227" cy="-60" r="2.5" fill="#FFFFFF"/>
+    <circle cx="235" cy="-60" r="2.5" fill="#FFFFFF"/>
+    <circle cx="227" cy="-60" r="2.5" fill="#FFFFFF"/>
+
+    <!-- Left & Right Outer Temples -->
+    <path d="M -245 -45 L -275 -35" stroke="url(#blackAcetate)" stroke-width="15" stroke-linecap="round"/>
+    <path d="M 245 -45 L 275 -35" stroke="url(#blackAcetate)" stroke-width="15" stroke-linecap="round"/>
+  </g>
+
+  <!-- Editorial Card Label -->
+  <g transform="translate(400, 750)">
+    <text text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="32" fill="#242722" letter-spacing="1">The Everyday Classic</text>
+    <text y="36" text-anchor="middle" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#687466" letter-spacing="3" text-transform="uppercase">Polished Italian Acetate · Rectangular</text>
+    <text y="68" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" fill="#A77B50" letter-spacing="1.5">RANA OPTICAL DISPENSARY</text>
+  </g>
+</svg>

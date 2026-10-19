@@ -1,0 +1,68 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgLight" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F5F1E9"/>
+      <stop offset="100%" stop-color="#E5DDD0"/>
+    </radialGradient>
+
+    <!-- Titanium Sheen -->
+    <linearGradient id="titanium" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5B6659"/>
+      <stop offset="40%" stop-color="#8F9E8D"/>
+      <stop offset="70%" stop-color="#4E574C"/>
+      <stop offset="100%" stop-color="#363C35"/>
+    </linearGradient>
+
+    <linearGradient id="lensClear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EDF7F5" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#E8F1EC" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <radialGradient id="dropShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#242722" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#242722" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#242722" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bgLight)"/>
+  <rect x="24" y="24" width="752" height="952" stroke="#DCD5C9" stroke-width="1.5"/>
+
+  <ellipse cx="400" cy="575" rx="300" ry="38" fill="url(#dropShadow)"/>
+
+  <!-- Eyewear: Titan Minimalist -->
+  <g transform="translate(400, 465)">
+    <!-- Thin Titanium temples -->
+    <path d="M -235 -5 Q -280 -15 -320 -40" stroke="url(#titanium)" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M 235 -5 Q 280 -15 320 -40" stroke="url(#titanium)" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+    <!-- Left Geometric Polygon Lens -->
+    <polygon points="-230,-45 -80,-45 -45,-5 -75,65 -195,65 -230,10" fill="url(#lensClear)" stroke="#DCD5C9" stroke-width="1"/>
+    <polygon points="-230,-45 -80,-45 -45,-5 -75,65 -195,65 -230,10" stroke="url(#titanium)" stroke-width="5" fill="none"/>
+
+    <!-- Glare reflection line -->
+    <path d="M -210 -25 L -80 45" stroke="#687466" stroke-width="2.5" stroke-linecap="round" opacity="0.3"/>
+
+    <!-- Right Geometric Polygon Lens -->
+    <polygon points="230,-45 80,-45 45,-5 75,65 195,65 230,10" fill="url(#lensClear)" stroke="#DCD5C9" stroke-width="1"/>
+    <polygon points="230,-45 80,-45 45,-5 75,65 195,65 230,10" stroke="url(#titanium)" stroke-width="5" fill="none"/>
+
+    <path d="M 80 -25 L 210 45" stroke="#687466" stroke-width="2.5" stroke-linecap="round" opacity="0.3"/>
+
+    <!-- Minimalist Architectural Bridge -->
+    <path d="M -45 -10 L 45 -10" stroke="url(#titanium)" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Featherweight nose pads -->
+    <circle cx="-25" cy="15" r="4" fill="#FFFFFF" opacity="0.8" stroke="url(#titanium)" stroke-width="1"/>
+    <circle cx="25" cy="15" r="4" fill="#FFFFFF" opacity="0.8" stroke="url(#titanium)" stroke-width="1"/>
+  </g>
+
+  <!-- Label -->
+  <g transform="translate(400, 750)">
+    <text text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="32" fill="#242722" letter-spacing="1">The Titan Minimalist</text>
+    <text y="36" text-anchor="middle" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#687466" letter-spacing="3" text-transform="uppercase">Japanese Beta-Titanium · Octagonal</text>
+    <text y="68" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" fill="#A77B50" letter-spacing="1.5">RANA OPTICAL DISPENSARY</text>
+  </g>
+</svg>

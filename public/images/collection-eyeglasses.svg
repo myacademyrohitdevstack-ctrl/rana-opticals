@@ -1,0 +1,38 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgLight" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F5F1E9"/>
+      <stop offset="100%" stop-color="#EBE3D7"/>
+    </radialGradient>
+    <radialGradient id="dropShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#242722" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#242722" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#242722" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bgLight)"/>
+  <rect x="24" y="24" width="752" height="952" stroke="#DCD5C9" stroke-width="1.5"/>
+  <ellipse cx="400" cy="570" rx="280" ry="40" fill="url(#dropShadow)"/>
+
+  <!-- Eyeglasses Collection Visual -->
+  <g transform="translate(400, 460)">
+    <path d="M -220 -10 Q -270 -20 -310 -50" stroke="#242722" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M 220 -10 Q 270 -20 310 -50" stroke="#242722" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+    <rect x="-225" y="-70" width="195" height="130" rx="22" stroke="#242722" stroke-width="14" fill="#FFFFFF" fill-opacity="0.9"/>
+    <rect x="30" y="-70" width="195" height="130" rx="22" stroke="#242722" stroke-width="14" fill="#FFFFFF" fill-opacity="0.9"/>
+
+    <path d="M -200 -35 L -80 35" stroke="#687466" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+    <path d="M 55 -35 L 175 35" stroke="#687466" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+
+    <path d="M -30 -20 Q 0 -40 30 -20" stroke="#242722" stroke-width="12" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <g transform="translate(400, 740)">
+    <text text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="34" fill="#242722" letter-spacing="1">Everyday Eyeglasses</text>
+    <text y="36" text-anchor="middle" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#687466" letter-spacing="3" text-transform="uppercase">Acetate &amp; Flexible TR90 · Daily Wear</text>
+    <text y="68" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" fill="#A77B50" letter-spacing="1.5">RANA OPTICAL CATALOGUE</text>
+  </g>
+</svg>

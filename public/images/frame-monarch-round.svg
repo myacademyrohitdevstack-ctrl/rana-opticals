@@ -1,0 +1,84 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgLight" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F5F1E9"/>
+      <stop offset="100%" stop-color="#EBE3D7"/>
+    </radialGradient>
+
+    <!-- Tortoiseshell Gradient -->
+    <linearGradient id="tortoise" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#734724"/>
+      <stop offset="25%" stop-color="#2D1A0E"/>
+      <stop offset="50%" stop-color="#B87D3B"/>
+      <stop offset="75%" stop-color="#3A2011"/>
+      <stop offset="100%" stop-color="#A77B50"/>
+    </linearGradient>
+
+    <linearGradient id="goldMetal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C59B63"/>
+      <stop offset="50%" stop-color="#F3DCAC"/>
+      <stop offset="100%" stop-color="#9B7038"/>
+    </linearGradient>
+
+    <linearGradient id="lensClear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0F7F9" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#E8F1EE" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <radialGradient id="dropShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#242722" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#242722" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#242722" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bgLight)"/>
+  <rect x="24" y="24" width="752" height="952" stroke="#DCD5C9" stroke-width="1.5"/>
+
+  <ellipse cx="400" cy="580" rx="310" ry="42" fill="url(#dropShadow)"/>
+
+  <!-- Eyewear Composition: The Monarch Round -->
+  <g transform="translate(400, 470)">
+    <!-- Behind-lens temples -->
+    <path d="M -230 0 Q -280 -10 -320 -40" stroke="url(#goldMetal)" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M 230 0 Q 280 -10 320 -40" stroke="url(#goldMetal)" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+    <!-- Left Round Lens -->
+    <circle cx="-135" cy="0" r="95" fill="url(#lensClear)" stroke="#DCD5C9" stroke-width="1"/>
+    <!-- Glare -->
+    <path d="M -170 -40 Q -120 -80 -70 -40" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Right Round Lens -->
+    <circle cx="135" cy="0" r="95" fill="url(#lensClear)" stroke="#DCD5C9" stroke-width="1"/>
+    <path d="M 100 -40 Q 150 -80 200 -40" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Left Tortoiseshell Rim -->
+    <circle cx="-135" cy="0" r="102" stroke="url(#tortoise)" stroke-width="14" fill="none"/>
+    <circle cx="-135" cy="0" r="95" stroke="url(#goldMetal)" stroke-width="2" fill="none"/>
+
+    <!-- Right Tortoiseshell Rim -->
+    <circle cx="135" cy="0" r="102" stroke="url(#tortoise)" stroke-width="14" fill="none"/>
+    <circle cx="135" cy="0" r="95" stroke="url(#goldMetal)" stroke-width="2" fill="none"/>
+
+    <!-- Filigree Metal Bridge -->
+    <path d="M -35 -10 Q 0 -35 35 -10" stroke="url(#goldMetal)" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M -25 -2 Q 0 -18 25 -2" stroke="url(#goldMetal)" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+    <!-- Silicone Nose Pads -->
+    <ellipse cx="-28" cy="20" rx="4" ry="10" fill="#FFFFFF" opacity="0.8" stroke="url(#goldMetal)" stroke-width="1"/>
+    <ellipse cx="28" cy="20" rx="4" ry="10" fill="#FFFFFF" opacity="0.8" stroke="url(#goldMetal)" stroke-width="1"/>
+
+    <!-- Metal Endpieces -->
+    <rect x="-252" y="-8" width="16" height="16" rx="2" fill="url(#goldMetal)"/>
+    <rect x="236" y="-8" width="16" height="16" rx="2" fill="url(#goldMetal)"/>
+  </g>
+
+  <!-- Editorial Card Label -->
+  <g transform="translate(400, 750)">
+    <text text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="32" fill="#242722" letter-spacing="1">The Monarch Round</text>
+    <text y="36" text-anchor="middle" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#687466" letter-spacing="3" text-transform="uppercase">Tortoiseshell &amp; Warm Gold · Round</text>
+    <text y="68" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" fill="#A77B50" letter-spacing="1.5">RANA OPTICAL DISPENSARY</text>
+  </g>
+</svg>

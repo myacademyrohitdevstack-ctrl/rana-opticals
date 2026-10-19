@@ -1,0 +1,40 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgLight" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F5F1E9"/>
+      <stop offset="100%" stop-color="#EBE3D7"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C59B63"/>
+      <stop offset="50%" stop-color="#F2DDAD"/>
+      <stop offset="100%" stop-color="#8E632D"/>
+    </linearGradient>
+    <radialGradient id="dropShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#242722" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#242722" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#242722" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bgLight)"/>
+  <rect x="24" y="24" width="752" height="952" stroke="#A77B50" stroke-width="1.5" stroke-opacity="0.6"/>
+  <ellipse cx="400" cy="570" rx="280" ry="40" fill="url(#dropShadow)"/>
+
+  <!-- Premium Frames Visual -->
+  <g transform="translate(400, 460)">
+    <polygon points="-210,-40 -70,-40 -40,0 -70,55 -180,55 -210,10" stroke="url(#gold)" stroke-width="8" fill="#FFFFFF" fill-opacity="0.95"/>
+    <polygon points="210,-40 70,-40 40,0 70,55 180,55 210,10" stroke="url(#gold)" stroke-width="8" fill="#FFFFFF" fill-opacity="0.95"/>
+
+    <path d="M -40 -10 L 40 -10" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+    
+    <path d="M -210 -10 L -250 -35" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 210 -10 L 250 -35" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(400, 740)">
+    <text text-anchor="middle" font-family="'DM Serif Display', Georgia, serif" font-size="34" fill="#242722" letter-spacing="1">Premium Frames</text>
+    <text y="36" text-anchor="middle" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#A77B50" letter-spacing="3" text-transform="uppercase">Handmade Acetate &amp; Japanese Titanium</text>
+    <text y="68" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" fill="#687466" letter-spacing="1.5">RANA OPTICAL CATALOGUE</text>
+  </g>
+</svg>
